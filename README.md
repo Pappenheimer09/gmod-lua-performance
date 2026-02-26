@@ -118,7 +118,7 @@ The Code: [files/localplayer_cached_or.lua](files/localplayer_cached_or.lua)
 
 
 
-# Angle:Zero() vs new Angle()
+# Angle:Zero() vs new Angle() vs Cached Angle
 
 TL;DR:
 Reusing an existing Angle object is significantly faster than creating a new one every time. The fastest approach, however, is returning a pre-initialized cached Angle(0,0,0).
